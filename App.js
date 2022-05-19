@@ -60,7 +60,6 @@ const App: () => Node = () => {
   };
 
   const onPressRive = () => {
-    console.log("HELP??");
     riveRef.current?.fireState('State Machine 1', 'Check');
   };
 
